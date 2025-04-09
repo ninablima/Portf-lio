@@ -6,69 +6,101 @@
     <title>Portfólio</title>
 </head>
 <body>
-    <h1>Portfólio Nina Bianca do Nascimento Lima</h1>
-    <h2>Sobre mim</h2>
-    <p>Sou <em>UI/UX Designer e Web Designer.</em></p>
-    <h2>Habilidades Técnicas</h2>
-    <ul type="circle">
-        <li>Figma</li>
-        <li>Html</li>
-        <li>Css</li>
-        <li>Inglês intermediário</li>
-        <li>Pacote Office</li>
-    </ul>
-
+    <header>
+        <h1>Portfólio Nina Bianca do Nascimento Lima</h1>
+        <nav>
+            <ul>
+                <li><a href="#eu">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#projetos">Meus projetos</a></li>
+                <li><a href="#info">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="eu">
+            <h2>Sobre mim</h2>
+            <p>Sou <em>UI/UX Designer e Web Designer.</em></p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul type="circle">
+                <li>Figma</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Inglês intermediário</li>
+                <li>Pacote Office</li>
+            </ul>
+        </section>
+        <section id="cursos">
     <h2>Cursos realizados</h2>
-    <ol>
-        <li><b>2021-2023</b></li>
-            <ul>
-                <li>Curso técnico em Informática</li>
-            </ul>
-        <li><b>2024</b></li>
-            <ul>
-                <li>Curso de Design UI/UX</li>
-            </ul>
-        <li><b>2025</b></li>
-            <ul>
-                <li>Curso Web Design Full Stack</li>
-            </ul>
-        </ol>
+        <ol>
+            <li><b>2021-2023</b></li>
+                <ul>
+                    <li>Curso técnico em Informática</li>
+                </ul>
+            <li><b>2024</b></li>
+                <ul>
+                    <li>Curso de Design UI/UX</li>
+                </ul>
+            <li><b>2025</b></li>
+                <ul>
+                    <li>Curso Web Design Full Stack</li>
+                </ul>
+            </ol>
+        </section>
+        <section id="experiencias">
         <h2>Experiências profissionais</h2>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>IFCE</th>
-                    <td>Monitoria de Sistemas Embarcados</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Scarpa Editora</th>
-                    <td>Equipe de suporte</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Veja meus projetos!</h2>
-        <h3>Github:</h3>
-        <img src="gith.png" alt="github" width="700">
-        <br><br>
-       <button><a href="https://github.com/ninablima">Clique Aqui</a></button>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>IFCE</th>
+                        <td>Monitoria de Sistemas Embarcados</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Scarpa Editora</th>
+                        <td>Equipe de suporte</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="projetos">
+            <h2>Veja meus projetos!</h2>
+            <h3>Github:</h3>
+            <img src="gith.png" alt="github" width="700">
+            <br><br>
+            <button><a href="https://github.com/ninablima">Clique Aqui</a></button>
+        </section>
+        <section id="info">
+            <h2>Insira suas informações para trabalharmos juntos</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required><br><br>
 
-        <h2>Insira suas informações para trabalharmos juntos</h2>
-        <form action="#" method="post">
-            <label for="nome">Nome</label><br>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome..." required><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite seu email..." required><br><br>
 
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="Digite seu email..." required><br><br>
+                <label>Interesse</label><br>
+                <input type="checkbox" name="Interesse" id="UIUX" value="UIUX">
+                <label for="UIUX">UI/UX design</label><br>
+                <input type="checkbox" name="interesse" id="web" value="web">
+                <label for="web">Web design</label><br><br>
 
-            <label>Interesse</label><br>
-            <input type="checkbox" name="Interesse" id="UIUX" value="UIUX">
-            <label for="UIUX">UI/UX design</label><br>
-            <input type="checkbox" name="interesse" id="web" value="web">
-            <label for="web">Web design</label><br><br>
+                <label for="resumo">Resumo do trabalho desejado</label><br>
+                <textarea name="resumo" id="resumo" placeholder="Digite seu resumo.." cols="30" rows="5"></textarea><br><br>
 
-            <input type="button" value="enviar">
-        </form>
+                <input type="button" value="enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4>&copy; 2025 Nina Lima.Todos os direitos reservados.</h4>
+        <h4>Email para contato:</h4>
+        <p>ninabianca.lima@gmail.com</p>
+    </footer>
    </body>
 </html>

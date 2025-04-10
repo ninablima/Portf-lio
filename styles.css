@@ -1,0 +1,85 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header {
+    text-align: center;
+    width: 1390px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#habilidades, #cursos, #experiencias {
+    width: 1390px;
+    height: 200px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#eu {
+    width: 1390px;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#projetos {
+    width: 1390px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#info {
+    width: 1390px;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}
+th{
+    color: rgb(37, 110, 174);
+}
+
+#projetos {
+    color: fuchsia;
+}
+
+footer {
+    text-align: center;
+    width: 1390px;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav  {
+    
+}

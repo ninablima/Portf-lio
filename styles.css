@@ -1,26 +1,49 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: "Poppins", sans-serif;
+
 }
 
 header {
-    display: flex;
+    display: grid;
     text-align: center;
     width: 80rem;
     height: 8rem;
     padding: 5rem;
     margin: 1rem;
-    border-radius: 1rem; 
+    padding-top: 3rem;
+    border-radius: 1rem;
     position: relative;
 }
-#habilidades, #cursos, #experiencias {
+
+#habilidades {
     width: 80rem;
-    height: 8rem;
+    height: 11rem;
     background-color: #ffffff;
     padding: 6rem;
     padding-top: 3rem;
     margin: 1rem;
-    border-radius: 1rem; 
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#cursos {
+    width: 80rem;
+    height: 13rem;
+    background-color: #ffffff;
+    padding: 6rem;
+    padding-top: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#experiencias {
+    width: 80rem;
+    background-color: #ffffff;
+    padding: 6rem;
+    padding-top: 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -31,32 +54,22 @@ header {
     padding: 6rem;
     padding-top: 3rem;
     margin: 1rem;
-    border-radius: 1rem; 
+    border-radius: 1rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#projetos {
+#info {
+    display: grid;
     width: 80rem;
     height: 30rem;
     background-color: #ffffff;
     padding: 6rem;
     padding-top: 4rem;
     margin: 1rem;
-    border-radius: 1rem; 
+    border-radius: 1rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#info {
-    display: flex;
-    width: 80rem;
-    height: 25rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 4rem;
-    margin: 1rem;
-    border-radius: 1rem; 
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 h1 {
     color: darkblue;
     text-align: center;
@@ -65,12 +78,13 @@ h1 {
 h2 {
     color: darkblue;
 }
-th{
-    color: rgb(37, 110, 174);
+
+th {
+    color: rgb(117, 117, 162);
 }
 
 #projetos {
-    color: rgb(37, 110, 174);
+    color: rgb(117, 117, 162);
 }
 
 footer {
@@ -78,22 +92,32 @@ footer {
     width: 80rem;
     height: 4rem;
     padding: 5rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin: 1rem;
 }
 
-#me, #hab, #curs, #exp, #proj, #inf {
-    background-color:darkblue;
+#me,
+#hab,
+#curs,
+#exp,
+#inf,
+#infosb {
+    background-color: darkblue;
     padding: 10px 15px;
     border-radius: 10%;
     border: none;
-    color:  white;
+    color: white;
     text-decoration: dashed;
     cursor: pointer;
     transition: background-color 0.3s;
-    
+
 }
 
-#me, #hab, #curs, #exp, #proj, #inf:hover {
-    background-color:rgb(117, 117, 162);
+#me:hover,
+#hab:hover,
+#curs:hover,
+#exp:hover,
+#inf:hover,
+#infosb:hover {
+    background-color: rgb(117, 117, 162);
 }

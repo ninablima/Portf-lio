@@ -1,4 +1,5 @@
 body {
+    display: flexbox;
     font-family: "Poppins", sans-serif;
 
 }
@@ -13,6 +14,19 @@ header {
     padding-top: 3rem;
     border-radius: 1rem;
     position: relative;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}
+
+h3 {
+    color: rgb(117, 117, 162);
 }
 
 #habilidades {
@@ -58,7 +72,7 @@ header {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#info {
+#projetos {
     display: grid;
     width: 80rem;
     height: 30rem;
@@ -70,21 +84,32 @@ header {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-    color: darkblue;
-    text-align: center;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
 }
 
-h2 {
-    color: darkblue;
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
 th {
+    background-color: #f4f4f4;
+    font-weight: bold;
     color: rgb(117, 117, 162);
 }
 
-#projetos {
-    color: rgb(117, 117, 162);
+.container {
+    display: flex;
+}
+
+img {
+    margin-right: 50px;
 }
 
 footer {

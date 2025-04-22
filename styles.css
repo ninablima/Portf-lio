@@ -44,7 +44,6 @@
   #habilidades,
   #cursos,
   #experiencias,
-  #eu,
   #projetos,
   #conheca,
   #interesse {
@@ -120,7 +119,7 @@
     justify-content:center ;
     gap: 8px;
   }
-  #me,
+
   #hab,
   #curs,
   #exp,
@@ -130,7 +129,7 @@
   #know,
   #int,
   #bton {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Arial Narrow Bold', sans-serif;
     font-size: 14px;
     background-color: rgb(0, 0, 0);
     padding: 10px 15px;
@@ -143,7 +142,6 @@
     transition: background-color 0.3s;
   }
   
-  #me:hover,
   #hab:hover,
   #curs:hover,
   #exp:hover,

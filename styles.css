@@ -25,19 +25,20 @@
     margin: 0;
     border-radius: 50%;
     object-fit: cover;
+    box-shadow: none;
   }
   
   h2 {
-    color: darkblue;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   
   h3 {
-    color: darkblue;
+    color: rgb(0, 0, 0);
   }
   
   h4 {
-    color: rgb(117, 117, 162);
+    color: rgb(70, 70, 70);
   }
   
   #habilidades,
@@ -73,7 +74,7 @@
   th {
     background-color: #f4f4f4;
     font-weight: bold;
-    color: rgb(117, 117, 162);
+    color: rgb(78, 78, 78);
   }
   
   .container {
@@ -129,8 +130,9 @@
   #know,
   #int,
   #bton {
-    font-size: 13px;
-    background-color: darkblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
     padding: 10px 15px;
     margin: 0;
     border-radius: 10%;
@@ -151,7 +153,7 @@
   #know:hover,
   #int:hover,
   #bton:hover {
-    background-color: rgb(117, 117, 162);
+    background-color: rgb(77, 77, 77);
   }
   
   @media (max-width: 768px) {

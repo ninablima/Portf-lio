@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>Portfólio Nina Lima</h1>
-        <img src="nina.jpg" width="200px" id="menina"><br><br>
+        <img src="imgs/nina.jpg" width="200px" class="menina"><br><br>
         <nav>
             <a id="me" href="#eu">Sobre mim</a>
             <a id="hab" href="#habilidades">Habilidades</a>
@@ -22,6 +22,7 @@
             <a id="exp" href="#experiencias">Experiências</a>
             <a id="inf" href="#projetos">Projetos</a>
             <a id="know" href="#conheca">Mais</a>
+            <a id="int" href="#interesse">Interessado?</a>
         </nav>
     </header>
     <main>
@@ -78,40 +79,47 @@
             <h2>Projetos</h2>
             <h3>Protótipos de média fidelidade com Figma</h3>
             <article class="container">
-                <img src="prot4.png" width="450px" height="240">
-                <img src="prot5.png" width="450px" height="240">
+                <img src="imgs/prot4.png" width="450px" height="240">
+                <img src="imgs/prot5.png" width="450px" height="240">
             </article><br><br>
             <h3>Protótipos de alta fidelidade com Figma</h3>
             <a id="linksproj" href="https://www.figma.com/proto/TmHzNfuZe6BP96hZZfYEIu/wireframe-healthvibe?page-id=0%3A1&node-id=37-77&p=f&viewport=463%2C809%2C0.36&t=79vGpDB7C0jpk6IT-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=37%3A77">Projeto Health Vibe: App com finalidade de combater o sedentárismo</a><br><br>
             <article class="container">
-                <img src="prot6.png" width="180px">
-                <img src="prot7.png" width="180px">
-                <img src="prot8.png" width="180px">
+                <img src="imgs/prot6.png" width="180px">
+                <img src="imgs/prot7.png" width="180px">
+                <img src="imgs/prot8.png" width="180px">
             </article><br><br>
             <h3>Website com HTML, CSS e JS</h3>
             <a id="linksproj" href="https://github.com/ninabws/Aquario.git">Projeto Aqua+:Site sobre aquários e peixes.</a><br><br>
             <article class="container">
-                <img src="site2.png" width="450px" height="240">
-                <img src="site3.png" width="450px" height="240">
+                <img src="imgs/site2.png" width="450px" height="240">
+                <img src="imgs/site3.png" width="450px" height="240">
             </article><br><br>
         </section>
         <section id="conheca">
             <h2>Conheça minhas redes!</h2><br>
             <article class="container">
-            <img id="redes"src="gith.svg"  width="90px">
+            <img id="redes"src="svg/gith.svg"  width="90px">
             <a href="https://github.com/ninablima">Github</a>
-            <img id="redes" src="linkd.svg" width="90px">
+            <img id="redes" src="svg/linkd.svg" width="90px">
             <a href="https://www.linkedin.com/in/nina-bianca-01071920a/">Linkedln</a>
-            <img id="redes" src="email.svg" width="90px">
+            <img id="redes" src="svg/email.svg" width="90px">
             <a href="https://ninabianca.lima@gmail.com">Email</a>
             </article>
         </section>
+        <section id="interesse">
+            <h2>Ficou interessado(a)? Contate-me!</h2>
+            <form action="mailto:ninabianca.lima@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Nome</label><br>
+            <input type="text" id="name" placeholder="Digite seu nome" required><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="pessoa@gmail.com"><br><br>
+            <button id="bton" onclick="submit">Enviar</button>
+        </form>
     </main>
     <footer>
         <p>&copy; 2025 Nina Lima.Todos os direitos reservados.</p>
-        <p>Email para contato:</p>
-        <p>ninabianca.lima@gmail.com</p>
-        <img id="mine" src="mine.svg.svg">
+        <img id="mine" src="svg/mine.svg">
     </footer>
 </body>
 

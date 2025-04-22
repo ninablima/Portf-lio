@@ -1,191 +1,175 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
-}
-main {
-    max-width: 800px;
-    width: 90%;
-}
-header {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
     text-align: center;
-    width: 80rem;
-    height: 21rem;
-    padding: 5rem;
-    margin: 1rem;
-    padding-top: 1rem;
+    width: 100%;
+    padding: 25px 20px 10px 10px;
+    margin: 10px;
+    margin-bottom: 30px;
     border-radius: 1rem;
     position: relative;
-}
-
-#menina {
-    margin: 0%;
+  }
+  
+  .menina {
+    margin: 0;
     border-radius: 50%;
     object-fit: cover;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: darkblue;
     text-align: center;
-}
-
-h2 {
+  }
+  
+  h2 {
     color: darkblue;
-}
-
-h3 {
+  }
+  
+  h3 {
     color: rgb(117, 117, 162);
-}
-
-#habilidades {
-    width: 80rem;
-    height: 11rem;
+  }
+  
+  #habilidades,
+  #cursos,
+  #experiencias,
+  #eu,
+  #projetos,
+  #conheca,
+  #interesse {
+    width: 90vw;
+    max-width: 1280px;
     background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
+    padding: 3rem 2rem;
+    margin: 1rem auto;
     border-radius: 1rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#cursos {
-    width: 80rem;
-    height: 13rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#experiencias {
-    width: 80rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#eu {
-    width: 80rem;
-    height: 4rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#projetos {
-    width: 80rem;
-    height: 82rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#conheca {
-    width: 80rem;
-    height: 10rem;
-    background-color: #ffffff;
-    padding: 6rem;
-    padding-top: 3rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-table {
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 18px;
     text-align: left;
-}
-
-th,
-td {
+  }
+  
+  th,
+  td {
     border: 1px solid #ddd;
     padding: 8px;
-}
-
-th {
+  }
+  
+  th {
     background-color: #f4f4f4;
     font-weight: bold;
     color: rgb(117, 117, 162);
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
-}
-
-img {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  img {
     margin-right: 50px;
+    max-width: 100%;
+    height: auto;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-footer {
+  }
+  
+  #mine {
+    box-shadow: none;
+    margin-right: 0;
+  }
+  
+  #redes {
+    box-shadow: none;
+  }
+  
+  a {
     text-align: center;
-    width: 80rem;
-    height: 4rem;
-    padding: 5rem;
-    padding-top: 1rem;
-    margin: 1rem;
-}
-
-#mine {
-    box-shadow: none;
-    margin-right: 0%;
-}
-
-#redes {
-    box-shadow: none;
-}
-
-a {
     font-size: 20px;
     padding-top: 30px;
-    margin-right: 50px;
-}
-
-#linksproj {
+    margin-right: 20px;
+  }
+  
+  #linksproj {
     font-size: 17px;
-}
-#me,
-#hab,
-#curs,
-#exp,
-#inf,
-#infosb,
-#vejamais,
-#know {
+  }
+  
+  footer {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 8px;
+  }
+  #me,
+  #hab,
+  #curs,
+  #exp,
+  #inf,
+  #infosb,
+  #vejamais,
+  #know,
+  #int,
+  #bton {
     font-size: 15px;
     background-color: darkblue;
     padding: 10px 15px;
-    margin: 0%;
+    margin: 0;
     border-radius: 10%;
     border: none;
     color: white;
     text-decoration: dashed;
     cursor: pointer;
     transition: background-color 0.3s;
-
-}
-
-#me:hover,
-#hab:hover,
-#curs:hover,
-#exp:hover,
-#inf:hover,
-#infosb:hover,
-#vejamais:hover,
-#know:hover {
+  }
+  
+  #me:hover,
+  #hab:hover,
+  #curs:hover,
+  #exp:hover,
+  #inf:hover,
+  #infosb:hover,
+  #vejamais:hover,
+  #know:hover,
+  #int:hover,
+  #bton:hover {
     background-color: rgb(117, 117, 162);
-}
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    img {
+      margin: 0;
+    }
+
+    a {
+        margin: 0;
+    }
+  
+    footer {
+      padding: 2rem 1rem;
+      height: auto;
+      text-align: center;
+    }
+  }

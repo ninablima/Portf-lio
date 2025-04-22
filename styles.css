@@ -151,6 +151,7 @@ nav {
 #know:hover,
 #int:hover,
 #bton:hover {
+  scale: 1.1;
   background-color: rgb(70, 70, 70);
 }
 

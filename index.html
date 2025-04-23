@@ -16,16 +16,18 @@
         <img src="imgs/nina.jpg" width="170px" class="menina">
         <p><em>UI/UX Designer e Web Designer.</em></p>
         <nav>
-            <a id="hab" href="#habilidades">Habilidades</a>
-            <a id="curs" href="#cursos">Cursos</a>
-            <a id="exp" href="#experiencias">Experiências</a>
-            <a id="inf" href="#projetos">Projetos</a>
-            <a id="know" href="#conheca">Mais</a>
-            <a id="int" href="#interesse">Interessado?</a>
+            <ul class="menuUl">
+                <li><a class="menuItem" href="#habilidades">Habilidades</a></li> 
+                <li><a class="menuItem" href="#cursos">Cursos</a></li> 
+                <li><a class="menuItem" href="#experiencias">Experiências</a></li> 
+                <li><a class="menuItem" href="#projetos">Projetos</a></li> 
+                <li><a class="menuItem" href="#conheca">Mais</a></li> 
+                <li><a class="menuItem" href="#interesse">Interessado?</a></li> 
+            </ul>
         </nav>
     </header>
     <main>
-        <section id="habilidades">
+        <section class="section" id="habilidades">
             <h3>Hard skills</h3>
             <ul type="circle">
                 <li>Figma</li>
@@ -40,7 +42,7 @@
                 <li>Trabalho em equipe</li>
             </ul>
         </section>
-        <section id="cursos">
+        <section class="section" id="cursos">
             <h3>Formação academica</h3>
             <ol>
                 <li><b>2021-2023</b></li>
@@ -57,7 +59,7 @@
                 </ul>
             </ol>
         </section>
-        <section id="experiencias">
+        <section class="section" id="experiencias">
             <h3>Experiências profissionais</h3>
             <table border="1">
                 <thead>
@@ -74,41 +76,41 @@
                 </tbody>
             </table>
         </section>
-        <section id="projetos">
+        <section class="section" id="projetos">
             <h3>Projetos</h3>
             <h4>Protótipos de média fidelidade com Figma</h4>
             <article class="container">
-                <img src="imgs/prot4.png" width="450px" height="240">
-                <img src="imgs/prot5.png" width="450px" height="240">
+                <img id="protm" src="imgs/prot4.png" >
+                <img id="protm" src="imgs/prot5.png">
             </article><br><br>
             <h4>Protótipos de alta fidelidade com Figma</h4>
             <a id="linksproj"
                 href="https://www.figma.com/proto/TmHzNfuZe6BP96hZZfYEIu/wireframe-healthvibe?page-id=0%3A1&node-id=37-77&p=f&viewport=463%2C809%2C0.36&t=79vGpDB7C0jpk6IT-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=37%3A77"
                 target="_blank">Projeto Health Vibe: App com finalidade de combater o sedentárismo</a><br><br>
             <article class="container">
-                <img src="imgs/prot7.png" width="180px">
-                <img src="imgs/prot8.png" width="180px">
+                <img id="prota" src="imgs/prot7.png" >
+                <img id="prota" src="imgs/prot8.png">
             </article><br><br>
             <h4>Website com HTML, CSS e JS</h4>
             <a id="linksproj" href="https://github.com/ninabws/Aquario.git" target="_blank">Projeto Aqua+:Site sobre
                 aquários e peixes.</a><br><br>
             <article class="container">
-                <img src="imgs/site2.png" width="450px" height="240">
-                <img src="imgs/site3.png" width="450px" height="240">
+                <img id="site1" src="imgs/site2.png" >
+                <img id="site1" src="imgs/site3.png">
             </article><br><br>
         </section>
-        <section id="conheca">
+        <section class="section" id="conheca">
             <h3>Conheça minhas redes!</h3><br>
             <article class="container">
-                <img id="redes" src="svg/gith.svg" width="60px">
+                <img id="redes" src="svg/gith.svg">
                 <a href="https://github.com/ninablima" target="_blank">Github</a>
-                <img id="redes" src="svg/linkd.svg" width="60px">
+                <img id="redes" src="svg/linkd.svg">
                 <a href="https://www.linkedin.com/in/nina-bianca-01071920a/" target="_blank">Linkedln</a>
-                <img id="redes" src="svg/email.svg" width="60px">
+                <img id="redes" src="svg/email.svg">
                 <a href="https://ninabianca.lima@gmail.com" target="_blank">Email</a>
             </article>
         </section>
-        <section id="interesse">
+        <section class="section" id="interesse">
             <h3>Ficou interessado(a)? Contate-me!</h3>
             <form action="mailto:ninabianca.lima@gmail.com" method="POST" enctype="text/plain" target="_blank">
                 <label for="name">Nome</label><br>
